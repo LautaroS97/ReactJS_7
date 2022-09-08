@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.logo-container{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.logo{
+  width: 18rem;
+}
+.logo:hover{
+  opacity: 75%;
+}
+.menu-container{
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+  background-color: #CDDCE6;
+}
+.categories{
+  flex-direction: row;
+  font-size: xx-large;
+  font-family: 'Cinzel', serif;
+  text-decoration: none;
+  list-style: none;
+  margin: 1rem;
+  color: #3A291C;
+}
+.categories:hover{
+  color: #9B371E;
+}
+.carrito-container{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.carrito{
+  width: 3.5rem;
+  margin-top: -0.4rem;
+  margin-left: 1rem;
+}
+.catalog{
+  text-align: center;
+  margin-top: 2rem;
+  font-size: xx-large;
+  font-family: 'Marcellus', serif;
+}
+.contador{
+  width: 2rem;
+  height: 3rem;
+  font-size: xx-large;
+  font-family: 'Cinzel', serif;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.contador:hover{
+  border: solid 3px black;
+  background-color: #CDDCE6
+}
+.contadorTitle{
+  font-size: xx-large;
+  font-family: 'Cinzel', serif;
+  margin-bottom: 2rem;
+}
+.lista-productos{
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: 'cinzel', serif;
+  font-size: xx-large;
+  color: #3A291C;
+}
+.imagen-producto{
+  width: 25rem;
+  height: auto;
+}
+.nombre-producto{
+  font-family: 'cinzel', serif;
+  font-size: xx-large;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #9B371E;
+}
+.info-producto{
+  font-family: 'Marcellus', serif;
+  font-size: x-large;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.link-vermas{
+  font-family: 'Marcellus', serif;
+  font-size: x-large;
+  margin-left: 10rem;
+  text-decoration: none;
+  font-style: italic;
+  color:#3A291C;
+}
+.link-vermas:hover{
+  color:#9B371E;
+}
+.container-card{
+  display: flex;
+}
+.card{
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #CDDCE6;
+  padding: 2rem;
+  margin: 2rem;
+  width: 30rem;
+  border-radius: 5rem;
+  box-shadow: 10px 10px 30px #3A291C;
+}
+.card img{
+  border-radius: 3rem;
+  box-shadow: 10px 10px 30px grey;
+  border: #3A291C 5px solid;
+}
