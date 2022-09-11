@@ -1,9 +1,9 @@
-import { stock } from "../data/data.js"
+import { mercado } from "../data/data.js"
 
 export const pedirDatos = () => {
-    return new Promise( (resolve) => {
+    return new Promise( (resolve, reject) => {
         setTimeout(()=>{
-            resolve(stock)
-        }, 3000)
+            resolve(mercado)
+        }, 1000)
     })
 }

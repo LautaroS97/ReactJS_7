@@ -9,12 +9,13 @@ const Item = ({producto}) => {
                 <div className="card">
                     <img className="imagen-producto" src={producto.img}/>
                     <h3 className="nombre-producto">{producto.nombre}</h3>
-                    <p className="info-producto">Precio: AR$ {producto.precio}</p>
-                    <h4 className="info-producto">Existencias: {producto.stock}</h4>
-                    <p className="info-producto">Descripción: {producto.desc}</p>
-                    <Link to={`/item/${producto.id}`} className="link-vermas">Ver detalles...</Link>
+                    <h4 className="info-desc">Descripción: {producto.desc}</h4>
+                    <div>
+                        <h2 className="info-precio">Precio: AR$ {producto.precio}</h2>
+                    </div>
+                    <Contador></Contador>
+                    <div className="ver-mas"><Link to={`/item/${producto.id}`} className="ver-mas-button">Ver detalles...</Link></div>
                 </div>
-                <Contador></Contador>
             </div>
         </div>
     )

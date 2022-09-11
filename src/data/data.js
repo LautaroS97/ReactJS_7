@@ -1,4 +1,4 @@
-export const stock = [
+export const mercado = [
     {
         id: 1,
         nombre: 'REMERA ESTAMAPADA | Lautaro, mapuches',
@@ -6,7 +6,7 @@ export const stock = [
         img: '../img/remeras-lautaro.jpg',
         stock: '10',
         desc: 'Remera estampada con motivo de Lautaro, líder de los mapuches en Civilización VI.',
-        category: 'Remeras'
+        category: 'remeras'
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const stock = [
         img: '../img/remeras-trajano.jpg',
         stock: '10',
         desc: 'Remera estampada con motivo de Trajano, líder de los romanos en Civilización VI.',
-        category: 'Remeras'
+        category: 'remeras'
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ export const stock = [
         img: '../img/remeras-victoria.jpg',
         stock: '10',
         desc: 'Remera estampada con motivo de Victoria I, líder de los ingleses en Civilización VI.',
-        category: 'Remeras'
+        category: 'remeras'
     },
     {
         id: 4,
@@ -33,7 +33,7 @@ export const stock = [
         img: '../img/remeras-catalina.jpg',
         stock: '10',
         desc: 'Remera estampada con motivo de Catalina de Médici, líder de los franceses en Civilización VI.',
-        category: 'Remeras'
+        category: 'remeras'
     },
     {
         id: 5,
@@ -42,7 +42,7 @@ export const stock = [
         img: '../img/poster-pensador.jpg',
         stock: '10',
         desc: 'Ilustración full color, 60x40 centímetros, con motivo de la escultura del Pensador',
-        category: 'Posters'
+        category: 'posters'
     },
     {
         id: 6,
@@ -51,7 +51,7 @@ export const stock = [
         img: '../img/poster-atlas.jpg',
         stock: '10',
         desc: 'Ilustración full color, 60x40 centímetros, con motivo de la escultura del Atlas',
-        category: 'Posters'
+        category: 'posters'
     },
     {
         id: 7,
@@ -60,7 +60,7 @@ export const stock = [
         img: '../img/poster-discobolo.jpg',
         stock: '10',
         desc: 'Ilustración full color, 60x40 centímetros, con motivo de la escultura del Discóbolo',
-        category: 'Posters'
+        category: 'posters'
     },
     {
         id: 8,
@@ -69,7 +69,7 @@ export const stock = [
         img: '../img/poster-lideres.jpg',
         stock: '10',
         desc: 'Ilustración full color, 60x40 centímetros, con motivo de varios líderes y maravillas del videojuego',
-        category: 'Posters'
+        category: 'posters'
     },
     {
         id: 9,
@@ -78,7 +78,7 @@ export const stock = [
         img: '../img/taza-cleopatra.jpg',
         stock: '10',
         desc: 'Taza blanca de cerámica, estampada con motivo de Cleopatra.',
-        category: 'Tazas'
+        category: 'tazas'
     },
     {
         id: 10,
@@ -87,7 +87,7 @@ export const stock = [
         img: '../img/taza-shaka.jpg',
         stock: '10',
         desc: 'Taza blanca de cerámica, estampada con motivo de Shaka, rey de los Zúlus.',
-        category: 'Tazas'
+        category: 'tazas'
     },
     {
         id: 11,
@@ -96,7 +96,7 @@ export const stock = [
         img: '../img/taza-pericles.jpg',
         stock: '10',
         desc: 'Taza blanca de cerámica, estampada con motivo de Pericles.',
-        category: 'Tazas'
+        category: 'tazas'
     },
     {
         id: 12,
@@ -105,6 +105,6 @@ export const stock = [
         img: '../img/taza-teddy.jpg',
         stock: '10',
         desc: 'Taza blanca de cerámica, estampada con motivo de Teddy Roosevelt.',
-        category: 'Tazas'
+        category: 'tazas'
     },
 ]

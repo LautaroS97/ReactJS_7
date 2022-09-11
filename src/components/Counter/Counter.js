@@ -20,7 +20,6 @@ const Contador = () => {
 
     return(
         <div>
-            <h2 className="contadorTitle">Contador</h2>
             <button className="contador" onClick={handleRestar}>-</button>
             <span>{counter}</span>
             <button className="contador" onClick={handleSumar}>+</button>
